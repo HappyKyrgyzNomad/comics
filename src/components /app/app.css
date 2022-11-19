@@ -1,0 +1,13 @@
+.firstItems {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 0px;
+  justify-content: center;
+  align-items: center;
+}
+.secondItems {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: none;
+  margin-top: 50px;
+}

@@ -1,0 +1,49 @@
+.characters {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-column-gap: 7px;
+  grid-row-gap: 31px;
+
+  margin-left: 182px;
+
+  top: 14px;
+  width: 200px;
+  height: 318px;
+
+  background: #232222;
+}
+
+.characters:hover {
+  filter: drop-shadow(0px 5px 20px #ff0000);
+}
+
+.charactersName {
+  position: relative;
+  top: 230px;
+  right: 305px;
+  width: 170px;
+  height: 29px;
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  color: white;
+}
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-column-gap: 7px;
+  grid-row-gap: 31px;
+}
+.skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200%, 200%, 70%);
+  }
+  100% {
+    background-color: hsl(200%, 200%, 95%);
+  }
+}

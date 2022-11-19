@@ -1,0 +1,37 @@
+.thor {
+  width: 550px;
+  height: 250px;
+
+  background: #ffffff;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 166px;
+}
+
+.thorImg {
+  width: 180px;
+  height: 180px;
+}
+
+.thorBtn {
+  width: 101px;
+  height: 38px;
+  margin-right: 30px;
+  background: #9f0013;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  border: none;
+  color: #ffffff;
+  clip-path: polygon(10% 0%, 100% 0, 100% 49%, 78% 76%, 0 75%, 0 34%);
+}
+.wikiBtn {
+  background: #5c5c5c;
+}
+.thorBtn:hover {
+  filter: drop-shadow(12px 15px 20px #d9eb0e);
+}

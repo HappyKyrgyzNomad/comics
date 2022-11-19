@@ -1,0 +1,22 @@
+.header {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.header--1 {
+  padding-left: 16 px;
+}
+
+.header--2 {
+  padding-left: 770px;
+}
+
+.btn {
+  width: 101px;
+  height: 38px;
+
+  background: #9f0013;
+}
+.marvel {
+  color: #9f0013;
+}

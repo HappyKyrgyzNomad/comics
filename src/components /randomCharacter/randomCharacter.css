@@ -1,0 +1,63 @@
+.random {
+  width: 550px;
+  height: 250px;
+
+  background: #232222;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+
+  padding-left: 166px;
+}
+.randomText {
+  position: relative;
+  left: -154px;
+  width: 374px;
+  height: 64px;
+
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ffffff;
+}
+
+.randomText2 {
+  position: relative;
+  left: -154px;
+  bottom: -72px;
+  width: 374px;
+
+  height: 64px;
+
+  font-family: "Roboto Condensed";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #ffffff;
+}
+.shield {
+  position: relative;
+  width: 100px;
+
+  height: 100px;
+  left: 327px;
+  top: -102px;
+  background-image: none;
+}
+.hummer {
+  position: relative;
+  width: 136px;
+  height: 136px;
+  left: 307px;
+  top: -102px;
+
+  transform: rotate(334deg);
+}
+.btn--try {
+  position: relative;
+  top: 26px;
+  right: 144px;
+}

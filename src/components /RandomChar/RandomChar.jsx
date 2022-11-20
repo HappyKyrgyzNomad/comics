@@ -1,9 +1,9 @@
 import { Component } from "react";
 import MarvelService from "../../services/marvelService";
 
-import "./thor.css";
+import "./RandomChar.css";
 
-class Thor extends Component {
+class RandomChar extends Component {
   constructor(props) {
     super(props);
     this.updateChar();
@@ -44,4 +44,4 @@ class Thor extends Component {
     );
   }
 }
-export default Thor;
+export default RandomChar;

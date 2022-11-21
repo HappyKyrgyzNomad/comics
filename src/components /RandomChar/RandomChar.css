@@ -33,5 +33,23 @@
   background: #5c5c5c;
 }
 .thorBtn:hover {
-  filter: drop-shadow(12px 15px 20px #d9eb0e);
+  background: drop-shadow(12px 15px 20px #d9eb0e);
+}
+.error {
+  width: 550px;
+  height: 250px;
+
+  background: #ffffff;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 166px;
+}
+.refresh {
+  position: relative;
+  top: 132px;
+  left: -291px;
 }
